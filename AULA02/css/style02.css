@@ -1,0 +1,18 @@
+body{
+    font-family: fantasy;
+    color: black;
+    background-image: url("/AULA02/img/mantaoslo.jpg");
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    
+}
+
+/* background-size cover */
+
+/* Definido background com propriedade abreviada */
+
+p.ex2{
+    background: red url("../img/grass-img.png") no-repeat center;
+    color: black;
+}
