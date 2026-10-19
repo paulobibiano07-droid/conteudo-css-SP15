@@ -1,0 +1,121 @@
+body{
+    background-color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Exemplo inicial de Flexbox */
+
+.ex1{
+    background-color: aqua;
+    border: 10px outset darkblue;
+    padding: 30px;
+    display: flex;
+    gap: 15px;
+}
+
+.ex1 div{
+    background-color: blueviolet;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    align-content: flex-start;
+
+}
+
+
+/*Utilizando a propriedade flex-direction  */
+
+.column{
+    background-color: chartreuse;
+    border: 4px initial cornsilk;
+    padding: 20px;
+    display: flex;
+    gap: 22px;
+    
+    flex-direction: column;
+}
+
+
+div.column div{
+    background-color: chocolate;
+    width: 115px;
+    height: 115px;
+    text-align:center ;
+    align-content: center;
+}
+
+.row-reverse{
+   flex-direction: row-reverse;
+   background-color: aqua;
+   border: 10px inset blue;
+   padding: 11px;
+   display: flex;
+   gap: 15px;
+
+
+}
+
+.row-reverse div{
+    background-color: azure;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    align-content: center;
+}
+
+div.column-reverse{
+    background-color: red;
+    border: 5px inherit darkkhaki;
+    padding: 50px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column-reverse;
+
+}
+
+
+.column-reverse div{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+}
+
+
+/* Utilizando a propriedade flex-wrap */
+
+.wrap{
+    background-color: brown;
+    border: 10px inset darkred;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap
+    /* flex-wrap:nowrap;<-- Valor Padrão */
+}
+
+.wrap div{
+    background-color: darkgray;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    align-content: center;
+}
+
+.wrap-reverse{
+    background-color: lightsalmon;
+    border: 5px inherit salmon;
+    padding: 15px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap-reverse;
+}
+
+.wrap-reverse div{
+    background-color: lightseagreen;
+    width: 100px;
+    height: 100px;
+    text-align: end;
+    align-content: start;
+}

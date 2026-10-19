@@ -1,0 +1,29 @@
+body{
+    background-color: aquamarine;
+    font-family: cursive;
+
+}
+
+/* Definindo contorno com shorthand */
+
+p.ex1{
+    border: 5px groove red;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 400px;
+    outline: 10px ridge blue;
+    margin: 12px;
+}
+
+
+/* Definindo offset em contorno de elemento */
+
+p.ex2{
+    border: 5px groove yellow;
+    padding:15px;
+    box-sizing: border-box;
+    width: 400px;
+    outline: 10px ridge green;
+    outline-offset: 15px;
+    margin: 50px;
+}

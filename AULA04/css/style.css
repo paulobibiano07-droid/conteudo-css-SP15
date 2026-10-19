@@ -1,0 +1,38 @@
+body{
+    background-color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* Definindo padding com propriedades especificas */
+
+p.ex1{
+    border: 5px dashed blue;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+}
+
+/* Definindo padding com shorthand */
+
+p.ex2{
+    border: 3px outset yellowgreen;
+    padding: 90px 50px 30px 10px;
+}
+
+
+/* Padding e box-sizing */
+
+p.ex3{
+    background-color: black;
+    width: 400px;
+    padding: 27px;
+}
+
+p.ex3-2{
+    background-color: darkorange;
+    width: 400px;
+    padding: 27px;
+    box-sizing: border-box;
+}
