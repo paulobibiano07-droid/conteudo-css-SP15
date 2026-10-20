@@ -110,6 +110,7 @@ div.column-reverse{
     display: flex;
     gap: 20px;
     flex-wrap: wrap-reverse;
+    
 }
 
 .wrap-reverse div{

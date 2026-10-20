@@ -1,0 +1,145 @@
+body{
+    background-color: #f9f9f9;
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+}
+
+.center div,
+.flex-start div,
+.flex-end div,
+.strech div{
+    background-color: lightcyan;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px 50px;
+    color: aquamarine;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+
+
+/* Utilizando a propriedade align-items */
+
+.center{
+    background-color: blue;
+    padding: 20px;
+    border: 3px groove red;
+    display:flex;
+    gap: 20px;
+    height: 300px;
+    align-items: center;
+}
+
+.flex-start {
+     background-color: blue;
+    padding: 20px;
+    border: 3px groove red;
+    display: flex;
+    gap: 20px;
+    height: 200px;
+    align-items: flex-start;
+}
+
+.flex-end{
+    background-color: blue;
+    padding: 20px;
+    border: 3px groove red;
+    display: flex;
+    gap: 20px;
+    height: 200px;
+    align-items: flex-end;
+}
+
+.strech{
+     background-color: blue;
+    padding: 20px;
+    border: 3px groove red;
+    display: flex;
+    gap: 20px;
+    height: 200px;
+    align-items: stretch;
+}
+
+
+/* Utilizando a propriedade align-content */
+
+.center-2 div,
+.flex-start-2 div,
+.flex-end-2 div,
+.space-between-2 div,
+.space-around-2 div,
+.space-evenly-2 div{
+    border: 4px dashed green;
+}
+
+
+
+/*  */
+
+.center-2{
+    background-color: blue;
+    border: 9px ridge red;
+    padding: 15px;
+    height: 400px;
+    display:flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+
+.flex-end-2{
+    background-color: blue;
+    border: 9px ridge red;
+    padding: 15px;
+    height: 400px;
+    display:flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+
+.flex-start-2{
+    background-color: blue;
+    border: 9px ridge red;
+    padding: 15px;
+    height: 400px;
+    display:flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.space-around-2{
+    background-color: blue;
+    border: 9px ridge red;
+    padding: 15px;
+    height: 400px;
+    display:flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.space-evenly-2{
+    background-color: blue;
+    border: 9px ridge red;
+    padding: 15px;
+    height: 400px;
+    display:flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+
+.space-between-2{
+    background-color: blue;
+    border: 9px ridge red;
+    padding: 15px;
+    height: 400px;
+    display:flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
