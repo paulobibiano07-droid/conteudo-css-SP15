@@ -1,0 +1,119 @@
+body{
+    background-color: blueviolet;color: lightpink;
+    font-family: serif;
+
+}
+
+
+.container{
+    background-color: aliceblue;
+    border: 12px solid darkblue;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 7px;
+
+}
+
+
+.container div{
+    background-color: darkmagenta;
+    color: palevioletred;
+    border: 6px solid blue;
+    padding: 10px;
+    text-align: center;
+}
+
+/* formatação de Estilo */
+
+.ex1,
+.ex2,
+.ex3,
+.ex4,
+.ex5,
+.ex6,
+.ex7,
+.ex8{
+    background-color: aliceblue;
+    border: 12px solid darkblue;
+    padding: 10px;
+    display: grid;
+    gap: 7px; 
+}
+
+
+.ex1 div,
+.ex2 div,
+.ex3 div,
+.ex4 div,
+.ex5 div,
+.ex6 div,
+.ex7 div,
+.ex8 div{
+     background-color: darkmagenta;
+    color: palevioletred;
+    border: 6px solid blue;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/*Passando os valores msitos para o grid-tempalte-columns */
+.ex1{
+  grid-template-columns: 80px 120px auto;
+}
+
+/* Passando os valores  com a unidade fr para o grid-template-columns*/
+
+.ex2{
+    grid-template-columns: 3fr 4fr 1fr;
+}
+
+/* Utilizando a função repeat() no grid-template-columns */
+
+.ex3{
+    grid-template-columns: repeat(3,minmax(100px 1fr));
+}
+
+/* Utilizando a função minmax no grid-template-columns */
+  
+.ex4{
+    grid-template-columns: minmax(50px, 2fr) 100px 120px;
+}
+
+/* Utilizando a propriedade grid-template-rows */
+
+.ex5{
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,minmax(50px 1fr));
+}
+
+/* Utilizando a propriedade column-gap */
+
+.ex6{
+    grid-template-columns: repeat(3,2fr);
+    grid-template-rows: repeat(3, 80px);
+    gap: 10px;
+    column-gap: 20px;
+}
+
+/*Utilizando a propriedade row-gap */
+
+.ex7{
+    grid-template-columns: repeat(3,2fr);
+    grid-template-rows: repeat(3, 80px);
+    gap: 10px;
+    row-gap: 70px; 
+}
+
+/*Utilizando a proriedade gap */
+
+.ex8{
+   grid-template-columns: repeat(3,2fr);
+    grid-template-rows: repeat(3, 80px);
+    gap: 50px;
+    
+}
+
+
+
