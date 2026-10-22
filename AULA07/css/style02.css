@@ -1,0 +1,68 @@
+body{
+    background-color: lightsalmon;
+    color: red;
+    font-family: sans-serif;
+}
+
+
+/* Estilos para contêineres e itens */
+
+.ex1,
+.ex2,
+.ex3,
+.ex4,
+.ex5{
+    background-color: lightseagreen;
+    border: 10px groove goldenrod;
+    padding: 15px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3,minmax(100px,1fr));
+    grid-template-rows: repeat( 2,minmax(25px,60px));
+}
+
+.ex1 div,
+.ex2 div,
+.ex3 div,
+.ex4 div,
+.ex5 div{
+    background-color: darkorange;
+    color: lightpink;
+    border: 4px solid purple;
+    text-align: center;
+    justify-content: center;
+}
+
+
+/* Utilizando as propriedades grid-column-start e grid-column-end */
+
+#ex1-item1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+/* Utlizando a prorpiedade grid column */
+
+#ex2-item1{
+    grid-column: 1 / span 2;
+}
+
+/* Utilizando as propriedades grid-row-starte grid-row-end */
+
+#ex3-item1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+/* Utilizando as propriedade grid-row */
+
+#ex4-item1{
+    grid-row: 1/ span 2;
+}
+
+/* Utilizando as propriedade grid-column e grid-row em um elemento de grade */
+
+    #ex5-item1{
+        grid-column: 1/span 2;
+        grid-row: 1/span 2;
+    }

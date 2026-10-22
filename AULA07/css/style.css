@@ -1,0 +1,148 @@
+body{
+    background-color: olive;
+    color: aliceblue;
+    font-family: cursive;
+}
+
+/* Estilizando de contêineres a itens */
+
+.ex1,
+.ex2,
+.ex3,
+.ex4,
+.ex5,
+.ex6{
+    background-color: thistle;
+    border: 4px solid sandybrown;
+    padding: 20px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3,minmax(100px, 100px));
+    grid-template-rows: repeat(2,minmax(50px,2fr));
+
+}
+
+
+
+.ex1 div,
+.ex2 div,
+.ex3 div,
+.ex4 div,
+.ex5 div,
+.ex6 div{
+    background-color: tomato;
+    border: 6px solid brown;
+    color: beige;
+    text-align: center;
+    align-content: center;
+
+}
+
+
+/* Utilizando o valor sapce-evenly no justify-content */
+
+
+.ex1{
+    justify-content: space-evenly;
+}
+
+/* Utilizando o valor space-around no justify-content */
+
+.ex2{
+    justify-content: space-around;
+}
+
+/* Utilizando o avlor space-between no justify-content */
+
+.ex3{
+    justify-content: space-between;
+}
+
+/* Utilizando o valor center no justify-content */
+
+.ex4{
+    justify-content: center;
+}
+
+/* Utilizando o valor start no justify-content */
+
+.ex5{
+    justify-content: start;
+}
+
+/* Utilizando o valor end no justify-content */
+
+.ex6{
+    justify-content: end;
+}
+
+
+/* ----------------------------------------------------- */
+
+/* Estilos do contêiners e itens */
+
+.ex7,
+.ex8,
+.ex9,
+.ex10,
+.ex11,
+.ex12{
+     background-color: thistle;
+    border: 4px solid sandybrown;
+   padding: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3,minmax(100px, 100px));
+    grid-template-rows: repeat(2,minmax(50px,50px));
+    height: 260px;
+    justify-content: center;
+}
+
+.ex7 div,
+.ex8 div,
+.ex9 div,
+.ex10 div,
+.ex11 div,
+.ex12 div{
+    background-color: tomato;
+    border: 6px solid brown;
+    color: beige;
+    text-align: center;
+    align-content: center;
+
+}
+
+
+/* Utilizando o valor center no align-content */
+
+.ex7{
+    align-content: center;
+}
+
+/* Utilizando o valor space-evenly no align-content */
+.ex8{
+    align-content: space-evenly;
+}
+
+/* Utilizando o valor space-between no align-content */
+
+.ex10{
+    align-content: space-between;
+}
+
+/* Utilizando o valor space-around no align-content */
+
+.ex9{
+    align-content: space-around;
+}
+
+/* Utilizando o valor start no align-content */
+.ex11{
+    align-content: start;
+}
+
+/* Utilizando o vlaor end no align-content */
+
+.ex12{
+    align-content: end;
+}
