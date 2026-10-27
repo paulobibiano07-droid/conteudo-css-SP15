@@ -1,0 +1,35 @@
+body{
+    background-color: blue;
+    font-family:  sans-serif;
+}
+/* alinhando textos */
+
+.ex1{
+    text-align: left;
+}
+
+.ex2{
+    text-align: center;
+}
+.ex3{
+    text-align: right;
+}
+
+/* Decoração de texto */
+
+.ex4{
+    text-decoration:overline;
+    
+}
+
+.ex5{
+    text-decoration: line-through;
+}
+
+.ex6{
+    text-decoration: underline;
+}
+
+.ex7{
+
+}
